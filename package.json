@@ -3,7 +3,13 @@
   "version": "0.0.1",
   "description": "",
   "productName": "Todo Dracula",
-  "author": "rveronezdeveloper@gmail.com",
+  "author": {
+
+    "name" : "RaffDevs",
+
+    "email" : "rveronezdeveloper@gmail.com"
+
+  },
   "private": true,
   "scripts": {
     "test": "echo \"No test specified\" && exit 0"

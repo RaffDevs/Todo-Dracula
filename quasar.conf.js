@@ -187,9 +187,33 @@ module.exports = function (/* ctx */) {
 
         appId: 'todo-dracula',
 
-        target : 'deb|x64',
+        productName : 'TodoDracula',
 
         executableName : 'todo_dracula',
+
+        linux : {
+
+          category : 'Utility',
+
+          target : [
+
+            {
+
+              target : 'deb',
+
+              arch : [
+
+                'x64'
+
+              ]
+
+            }
+
+          ]
+
+        }
+
+        
       },
 
       // More info: https://v1.quasar.dev/quasar-cli/developing-electron-apps/node-integration
